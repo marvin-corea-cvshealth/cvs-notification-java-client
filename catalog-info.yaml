@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cvs-notification-java-client
+  description: A client for the email notification API
+  tags:
+    - java
+    - spring
+    - email
+    - notifications
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/cvs-notification-java-client
+spec:
+  type: utility
+  lifecycle: dev
+  owner: devsecops
+  system: java
