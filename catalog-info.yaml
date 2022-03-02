@@ -22,7 +22,7 @@ metadata:
     github.com/project-slug: marvin-corea-cvshealth/cvs-notification-java-client
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: library
+  type: service
   lifecycle: experimental
   owner: devsecops
   system: notifications
