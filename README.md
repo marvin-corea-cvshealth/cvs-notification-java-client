@@ -17,4 +17,4 @@ This is a reminder from CVS Mart at Blue Ave. You have prescriptions ready for p
     NotificationClient client = new NotificationClient();
     client.callNotification(userEmail, "Refill");
  ### Output
-![image](https://user-images.githubusercontent.com/98829230/156649535-1fd2582c-146c-46a6-9d6d-838c9ee21b9e.png)
+![image](https://user-images.githubusercontent.com/98829230/156652536-1fd7358d-1ac7-45a0-bd45-f03af0f94bfe.png)
