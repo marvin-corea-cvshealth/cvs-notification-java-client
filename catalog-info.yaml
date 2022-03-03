@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cvs-notification-java-client
-  title: Java Email Notification Service
+  title: Spring Boot Java Email Notification Service
   description: A client for the email notification API
   tags:
     - java
@@ -22,7 +22,7 @@ metadata:
     github.com/project-slug: marvin-corea-cvshealth/cvs-notification-java-client
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: library
+  type: service
   lifecycle: experimental
   owner: devsecops
   system: notifications
