@@ -6,12 +6,12 @@ This is a reminder from CVS Mart at Blue Ave. You have prescriptions ready for p
 ## Adding cvs-notification-client to your project
 ### POM
     <dependency>
-			<groupId>com.cvs.notification</groupId>
-			<artifactId>cvs-notification-client</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<systemPath>${pom.basedir}/src/main/resources/cvs-notification-client-0.0.1-SNAPSHOT.jar</systemPath>
-			<scope>system</scope>
-		</dependency>
+        <groupId>com.cvs.notification</groupId>
+        <artifactId>cvs-notification-client</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <systemPath>${pom.basedir}/src/main/resources/cvs-notification-client-0.0.1-SNAPSHOT.jar</systemPath>
+        <scope>system</scope>
+    </dependency>
  ### Sample code
     import com.cvs.notification.NotificationClient;
     NotificationClient client = new NotificationClient();
